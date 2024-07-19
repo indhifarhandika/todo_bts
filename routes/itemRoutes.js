@@ -1,4 +1,3 @@
-// routes/itemRoutes.js
 const express = require('express');
 const { createItem, getItems, deleteItem, updateItem, updateItemStatus, getItem } = require('../controllers/itemController');
 const authenticateToken = require('../middleware/auth');

@@ -1,6 +1,4 @@
-// models/Item.js
 const db = require('../config/db');
-
 
 class Item {
   static async createItem(checklistId, description) {

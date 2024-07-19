@@ -1,4 +1,3 @@
-// routes/checklistRoutes.js
 const express = require('express');
 const { createChecklist, getChecklists, deleteChecklist } = require('../controllers/checklistController');
 const authenticateToken = require('../middleware/auth');
